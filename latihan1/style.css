@@ -6,32 +6,35 @@
 }
 .main span{
     background-color: lightblue;
-} */
-/* a {
+}
+a {
     display: inline-block;
     background-color: pink;
     width: 200px;
     height: 200px;
-}
+} */
 
 img{
     width: 200px;
 }
-.main {
+
+/* .main {
     width: 600px;
     background-color: lightgreen;
 }
 
 .main h2{
     background-color: pink;
-} */
-/* h1, h2, p{
-    background-color: lightgreen;
-} */
+}
 
-/* img{
+h1, h2, p{
+    background-color: lightgreen;
+}
+
+img{
     display: none;
 } */
+
 .navigasi li{
     display: inline;
 }
