@@ -51,11 +51,11 @@ table {
 body {
     font: 16px/28px arial, sans-serif;
     background-color: #eaeaea;
-    background-image: url(img/bg2.jpg);
+    background-image: url(img/paisley.webp);
     color: #333;
 }
 .container {
-    width: 800px;
+    width: 960px;
     margin: auto;
     background-color: #fff;
 }
@@ -88,7 +88,7 @@ body {
 }
 
 .hero {
-    height: 280px;
+    height: 380px;
     background-image: url(img/hero.png);
     background-size: cover;
     background-position: 0 -180px;
@@ -96,29 +96,59 @@ body {
     border-top: 5px solid salmon;
 }
 
-.content {
+.main {
     padding: 20px;
+    width: 600px;
+    float: left;
+    box-sizing: border-box;
 }
 
-.content h2{
+.main h2{
     font-size: 28px;
     font-weight: bold;
 }
 
-.content .penulis {
+.main p {
+    text-align: justify;
+}
+
+.main .penulis {
     font-size: 11px;
     margin-top: -5px;
 
 }
 
-.content .penulis a{
+.main .penulis a{
     color: salmon;
     text-decoration: none;
 }
 
-.content p{
+.main p{
     margin-bottom: 20px;
     font-size: 14px;
+}
+
+.sidebar{
+    width: 300px;
+    padding: 20px;
+    float: right;
+    box-sizing: border-box;
+}
+
+.sidebar h3{
+    font-weight: bold;
+    color: #333;
+}
+
+.sidebar img {
+    width: 70px;
+    float: left;
+    padding-right: 10px;
+}
+
+.sidebar p {
+    text-align: justify;
+    font: 12px/18px arial;
 }
 
 .footer{
@@ -130,4 +160,21 @@ body {
     color: #eaeaea;
     text-align: center;
     font-size: 12px;
+}
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
 }
